@@ -7,7 +7,7 @@ const AlertBase = ({
    dismissStyles = "text-gray-300 hover:text-gray-600",
    title,
    notificationString,
-   Children = null
+   Children
 }) => {
    return (
       <div
@@ -20,7 +20,7 @@ const AlertBase = ({
                viewBox="0 0 24 24"
                stroke-width="1.5"
                stroke="currentColor"
-               class="size-6 text-green-600"
+               className="size-6 text-green-600"
             >
                <path
                   stroke-linecap="round"
